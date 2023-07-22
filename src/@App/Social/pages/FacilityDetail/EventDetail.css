@@ -1,0 +1,15 @@
+.slick-slide {
+	padding: 0 3px;
+	margin-bottom: 5px;
+}
+
+.elm-fixed {
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	z-index: 9999;
+	padding: 24px 0;
+	margin-bottom: 0 !important;
+}

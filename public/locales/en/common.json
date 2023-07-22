@@ -1,0 +1,90 @@
+{
+	"home": "ホーム",
+	"dialog": {
+		"title": {
+			"new": "Thêm mới",
+			"edit": "Chỉnh sửa"
+		}
+	},
+	"table": {
+		"customize_column": "Tùy biến cột",
+		"search_column": "Tìm kiếm cột",
+		"column_selected": "Cột được chọn ({{count}})",
+		"no_data": "Không tìm thấy dữ liệu nào!",
+		"hide_column": "Ẩn cột",
+		"move_column": "Di chuyển cột",
+		"save_column": "Lưu thay đổi",
+		"delete_confirm": "Bạn có muốn xoá dữ liệu này không?",
+		"row_per_page": "Số hàng hiển thị trên trang"
+	},
+	"btn": {
+		"new": "Thêm mới",
+		"save": "Lưu",
+		"save_change": "Lưu thay đổi",
+		"edit": "Chỉnh sửa",
+		"delete": "Xoá",
+		"submit": "Xác nhận",
+		"cancel": "Huỷ",
+		"view": "Xem chi tiết",
+		"update": "Cập nhật",
+		"unSubscribe": "Bỏ đăng ký",
+		"subscribed": "Đăng ký"
+	},
+	"message": {
+		"fetch_list_failed": "Không lấy được dữ liệu",
+		"delete_success": "Xoá dữ liệu thành công",
+		"delete_failed": "Xoá dữ liệu thất bại"
+	},
+	"form": {
+		"autocomplete": {
+			"placeholder": "選ぶ {{label}}",
+			"no_options": "選択の余地ない"
+		}
+	},
+	"validation": {
+		"mixed": {
+			"default": "${field} is invalid",
+			"required": "${field} is a required field",
+			"oneOf": "${field} must be one of the following values: ${values}",
+			"notOneOf": "${field} must not be one of the following values: ${values}",
+			"defined": "${field} must be defined"
+		},
+		"string": {
+			"length": "${path} must be exactly ${length} characters",
+			"min": "${path} must be at least ${min} characters",
+			"max": "${path} must be at most ${max} characters",
+			"matches": "${path} must match the following: \"${regex}\"",
+			"email": "${path} must be a valid email",
+			"url": "${path} must be a valid URL",
+			"uuid": "${path} must be a valid UUID",
+			"trim": "${path} must be a trimmed string",
+			"lowercase": "${path} must be a lowercase string",
+			"uppercase": "${path} must be a upper case string"
+		},
+		"number": {
+			"min": "${path} must be greater than or equal to ${min}",
+			"max": "${path} must be less than or equal to ${max}",
+			"lessThan": "${path} must be less than ${less}",
+			"moreThan": "${path} must be greater than ${more}",
+			"positive": "${path} must be a positive number",
+			"negative": "${path} must be a negative number",
+			"integer": "${path} must be an integer"
+		},
+		"date": {
+			"min": "${path} field must be later than ${min}",
+			"max": "${path} field must be at earlier than ${max}"
+		},
+		"array": {
+			"min": "${path} field must have at least ${min} items",
+			"max": "${path} field must have less than or equal to ${max} items",
+			"length": "${path} must have ${length} items"
+		},
+		"object": {
+			"noUnknown": "${path} field has unspecified keys: ${unknown}"
+		},
+		"boolean": {
+			"isValue": "${path} field must be ${value}"
+		}
+	},
+	"breadcrumb": {}
+}
